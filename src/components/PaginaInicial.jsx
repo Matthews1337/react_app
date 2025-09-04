@@ -125,8 +125,10 @@ export default function PaginaInicial() {
                     height: '90vh',
                     zIndex: -1, // Fica atrás de todo o conteúdo (botões, etc.)
                     backgroundImage: `url(${backgroundGif})`, // URL dinâmica do nosso estado
-                    backgroundSize: 'cover',
+                    backgroundSize: 'contain',
                     backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundColor: 'wihte', 
                     transition: 'background-image 0.5s ease-in-out' // Transição suave (opcional)
                 }}
             />
