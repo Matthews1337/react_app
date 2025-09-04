@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Evita a rolagem horizontal */
+  overflow-y: hidden; /* Evita a rolagem horizontal */
+}
+
+body {
+  /* Remove margens e garante que o corpo ocupe a tela toda */
+  margin: 0;
+  height: 100vh;
+  
+  /* Configuração do GIF de fundo */
+  background-image: url(""); /* O caminho começa com '/' porque está na pasta public */
+  background-size: cover; /* Faz o GIF cobrir toda a área sem distorcer */
+  background-position: center; /* Centraliza o GIF */
+  background-repeat: no-repeat; /* Evita que o GIF se repita */
+}
